@@ -1,0 +1,15 @@
+video{
+  width: 100%; 
+}
+input{
+  /*参数一：边框的宽度 参数二：solid 实线  */
+  border: 1px solid blue;
+  /*外边距  */
+  margin: 10px;
+}
+button{
+  background: goldenrod;
+  margin: 20px;
+  /*修改字体颜色  */
+  color: green;
+}

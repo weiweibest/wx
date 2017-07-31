@@ -1,0 +1,21 @@
+/* ctrl + a 全选  */
+
+/*如何根据类名找到标签: 点 + 类名*/
+.main{
+    /*参数一：边框的宽度 参数二：solid 实线  参数三：黑色 */
+    border: 3px solid black;
+    /* 展示：使用flex布局  */
+    /*flex:自适应手机屏幕  */
+    display: flex;
+}
+/*派生选择器  */
+.main view{
+  /*根据内容分配空间  */
+  /* flex: 1; */
+  flex:auto;
+}
+.flex-wrp{
+   display: flex; 
+   /*参数二：dashed 虚线  */
+   border: 2px dashed blueviolet;
+}

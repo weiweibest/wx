@@ -1,0 +1,17 @@
+<!--index.wxml-->
+<!-- 页面结构  -->
+<!-- view：标签  -->
+<view class="main">
+  <!-- style 写在标签里面，是内联样式 -->
+  <!-- shift +alt + down  -->
+  <view style="background-color:red">红色</view>
+  <view style="background-color:green">绿色</view>
+  <view style="background-color:blue">蓝色蓝色蓝色蓝色</view>
+  
+  <!-- flex-direction:row; 布局的方向 row 横向排列(默认) -->
+  <view class="flex-wrp" style="height:400px; flex-direction:column;">
+    <view class="flex-item" style="background:red" ></view>
+    <view class="flex-item" style="background:green" ></view>
+    <view class="flex-item" style="background:blue" ></view>
+  </view>
+</view>

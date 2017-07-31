@@ -1,0 +1,9 @@
+/*标签选择器  */
+video{
+  width: 100%;
+}
+button{
+  background: greenyellow;
+  /*外边距  */
+  margin: 10px;
+}

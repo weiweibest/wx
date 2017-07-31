@@ -1,0 +1,8 @@
+<!--index.wxml-->
+<view class="container">
+  <!-- video视频标签 src资源文件的路径 -->
+  <!--video标签本身就有播放暂停视频的功能  -->
+  <video src="{{src}}" ></video>
+  <!-- buttton 按钮标签   bindtap 绑定事件-->
+  <button bindtap="btnTap">获取视频</button>
+</view>

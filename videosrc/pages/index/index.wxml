@@ -1,0 +1,17 @@
+<!--index.wxml-->
+<view class="container">
+  <!-- 添加video,视频标签  -->
+  <!-- danmu-list 初始化弹幕列表 -->
+  <!-- danmu-btn 弹幕按钮,true有这个弹幕按钮  -->
+  <!-- enable-danmu="true" 默认可以播放弹幕  -->
+  <video id="myVideo" src="http://oo9wq61n2.bkt.clouddn.com/Jay" 
+  danmu-list="{{danmuList}}" danmu-btn="true" 
+  enable-danmu="true" controls="controls" ></video>
+
+  <!-- 按钮区域  -->
+  <view class="btn-area">
+    <!-- bindblur 失去焦点时调用 -->
+    <input bindblur="inputBlur" placeholder="请输入弹幕"/>
+    <button bindtap="bindSendDanmu">发送弹幕</button>
+  </view>
+</view>
